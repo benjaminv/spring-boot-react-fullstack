@@ -1,0 +1,14 @@
+app:
+#  docker postgresql
+  datasource:
+    jdbc-url: jdbc:postgresql://localhost:5432/demodb
+    username: postgres
+    password: password
+    pool-size: 30
+
+# standalone postgresql
+  datasource2:
+    jdbc-url: jdbc:postgresql://localhost:5433/demodb
+    username: benhu
+    password:
+    pool-size: 30
